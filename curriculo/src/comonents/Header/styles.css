@@ -1,10 +1,54 @@
-header#main-header{
-    width: 100%;
+header#main-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 3.75em;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     height: 60px;
     background: #da552f;
     font-size: 18px;
+    /*display: inline-block;     */
+}
+
+span#logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aquamarine;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    outline: 0;
+    border-bottom: 0;
+    background: white;
+    color: #313237;
+}
+
+aside#Menus {
+    position: static;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    visibility: visible;
+    width: auto;
+}
+
+aside#Menus nav ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+}
+
+aside#Menus nav ul li {
+    margin-left: 40px;
+    background: blue;
 }

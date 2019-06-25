@@ -1,0 +1,8 @@
+.header-color {
+    background: black;
+}
+
+.layout-color{
+    background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover';
+    /* style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}} */
+}

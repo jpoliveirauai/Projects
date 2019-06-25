@@ -33,6 +33,6 @@ export default class  extends Component {
     }
 
     render() {
-        return <h1>HELOOOW</h1>;
+        return <h1>{this.state.name}</h1>;
     }
 }
